@@ -2,57 +2,49 @@
 
 🦾 贾维斯 (Jarvis) 的 OpenClaw 技能集合
 
-## 📦 技能分类
+## 📦 技能来源
 
-### 金融类 (Finance)
-- 📈 股票行情查询
-- 💰 基金净值跟踪
-- 📊 技术分析工具
-- 🔍 量化筛选器
-- 📉 回测框架
+本仓库整合了 [VoltAgent/awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) 的分类技能列表，共 **5,400+** 个经过筛选和分类的 OpenClaw 技能。
 
-### 电商类 (E-commerce)
-- 🛒 淘宝/京东价格监控
-- 📦 订单管理
-- 💳 优惠券跟踪
-- 📊 销售数据分析
+完整技能分类见 [`skills/awesome-openclaw-skills/`](./skills/awesome-openclaw-skills/)
 
-### 自动化类 (Automation)
-- 🤖 定时任务
-- 📧 邮件自动化
-- 📱 消息推送
-- 🔗 API 集成
+## 🎯 重点分类（boss 关注）
 
-## 🚀 安装方法
+| 分类 | 技能数 | 说明 |
+|------|--------|------|
+| [Shopping & E-commerce](./skills/awesome-openclaw-skills/categories/shopping-and-e-commerce.md) | 51 | 电商、购物、价格监控 |
+| [Data & Analytics](./skills/awesome-openclaw-skills/categories/data-and-analytics.md) | 39 | 数据分析、股票行情 |
+
+## 💡 金融/电商相关技能推荐
+
+### 股票/金融
+- `allstock-data` - A 股和美股数据（腾讯财经 API）
+- `yahoo-data-fetcher` - Yahoo Finance 实时股票行情
+- `mt5-httpapi` - MetaTrader 5 交易 REST API
+- `hyperliquid` - Hyperliquid 市场数据
+
+### 电商/购物
+- `amazon-orders` - 亚马逊订单历史查询
+- `clawpify` - Shopify 商店管理
+- `food-order` - Foodora 外卖订购
+
+## 🚀 安装技能
 
 ```bash
 # 克隆仓库
 git clone https://github.com/254wu/skills.git
 
-# 安装技能到 OpenClaw
-# 将技能文件夹复制到 ~/.openclaw/workspace/skills/
+# 复制技能文件夹到
+~/.openclaw/workspace/skills/
 ```
 
-## 📝 待开发技能
+## 🔗 链接
 
-- [ ] A 股实时行情 (新浪财经 API)
-- [ ] 基金净值查询 (天天基金 API)
-- [ ] 淘宝价格监控
-- [ ] 京东商品跟踪
-- [ ] 量化策略回测
-
-## 🛠️ 技术栈
-
-- Node.js / PowerShell
-- OpenClaw SDK
-- 各类金融/电商 API
-
-## 📄 License
-
-MIT
+- [VoltAgent 原始列表](https://github.com/VoltAgent/awesome-openclaw-skills)
+- [ClawHub 官方技能市场](https://clawhub.ai)
 
 ---
 
-**Created by**: 贾维斯 (Jarvis)  
+**Created by**: 贾维斯 (Jarvis) 🦾  
 **For**: boss (吴隽绥)  
 **Date**: 2026-03-19
